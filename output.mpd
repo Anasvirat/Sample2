@@ -8,7 +8,7 @@
 	minimumUpdatePeriod="PT5S"
 	suggestedPresentationDelay="PT5S"
 	availabilityStartTime="2025-04-18T15:30:31.534Z"
-	publishTime="2025-04-18T15:33:42.255Z"
+	publishTime="2025-04-18T15:33:45.488Z"
 	timeShiftBufferDepth="PT15.0S"
 	maxSegmentDuration="PT4.0S"
 	minBufferTime="PT10.0S">
@@ -19,11 +19,10 @@
 	<Period id="0" start="PT0.0S">
 		<AdaptationSet id="0" contentType="video" startWithSAP="1" segmentAlignment="true" bitstreamSwitching="true" frameRate="50/1" maxWidth="1920" maxHeight="1080" par="16:9">
 			<Representation id="0" mimeType="video/mp4" codecs="avc1.64002a" bandwidth="5000000" width="1920" height="1080" scanType="interlaced" sar="1:1">
-				<SegmentTemplate timescale="12800" initialization="init-stream$RepresentationID$.m4s" media="chunk-stream$RepresentationID$-$Number%05d$.m4s" startNumber="16">
+				<SegmentTemplate timescale="12800" initialization="init-stream$RepresentationID$.m4s" media="chunk-stream$RepresentationID$-$Number%05d$.m4s" startNumber="17">
 					<SegmentTimeline>
-						<S t="971264" d="64000" />
-						<S d="79360" />
-						<S d="64000" />
+						<S t="1035264" d="79360" />
+						<S d="64000" r="1" />
 					</SegmentTimeline>
 				</SegmentTemplate>
 			</Representation>
