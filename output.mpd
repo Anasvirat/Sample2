@@ -8,7 +8,7 @@
 	minimumUpdatePeriod="PT5S"
 	suggestedPresentationDelay="PT5S"
 	availabilityStartTime="2025-04-18T15:20:56.768Z"
-	publishTime="2025-04-18T15:24:43.114Z"
+	publishTime="2025-04-18T15:24:53.147Z"
 	maxSegmentDuration="PT4.0S"
 	minBufferTime="PT10.4S">
 	<ProgramInformation>
@@ -38,6 +38,7 @@
 						<S d="192512" r="3" />
 						<S d="192000" />
 						<S d="192512" />
+						<S d="192384" />
 					</SegmentTimeline>
 				</SegmentTemplate>
 			</Representation>
