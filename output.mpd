@@ -5,12 +5,12 @@
 	xsi:schemaLocation="urn:mpeg:DASH:schema:MPD:2011 http://standards.iso.org/ittf/PubliclyAvailableStandards/MPEG-DASH_schema_files/DASH-MPD.xsd"
 	profiles="urn:mpeg:dash:profile:isoff-live:2011"
 	type="dynamic"
-	minimumUpdatePeriod="PT7S"
-	suggestedPresentationDelay="PT7S"
+	minimumUpdatePeriod="PT5S"
+	suggestedPresentationDelay="PT5S"
 	availabilityStartTime="2025-04-18T15:20:56.768Z"
-	publishTime="2025-04-18T15:26:39.135Z"
+	publishTime="2025-04-18T15:27:08.807Z"
 	maxSegmentDuration="PT4.0S"
-	minBufferTime="PT15.6S">
+	minBufferTime="PT10.0S">
 	<ProgramInformation>
 	</ProgramInformation>
 	<ServiceDescription id="0">
@@ -27,6 +27,7 @@
 						<S d="66560" />
 						<S d="98816" />
 						<S d="100352" />
+						<S d="64000" />
 					</SegmentTimeline>
 				</SegmentTemplate>
 			</Representation>
