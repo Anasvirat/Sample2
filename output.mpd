@@ -8,10 +8,10 @@
 	minimumUpdatePeriod="PT5S"
 	suggestedPresentationDelay="PT5S"
 	availabilityStartTime="2025-04-18T15:30:31.534Z"
-	publishTime="2025-04-18T15:32:55.211Z"
-	timeShiftBufferDepth="PT17.6S"
+	publishTime="2025-04-18T15:33:03.344Z"
+	timeShiftBufferDepth="PT15.0S"
 	maxSegmentDuration="PT4.0S"
-	minBufferTime="PT11.7S">
+	minBufferTime="PT10.0S">
 	<ProgramInformation>
 	</ProgramInformation>
 	<ServiceDescription id="0">
@@ -19,10 +19,11 @@
 	<Period id="0" start="PT0.0S">
 		<AdaptationSet id="0" contentType="video" startWithSAP="1" segmentAlignment="true" bitstreamSwitching="true" frameRate="50/1" maxWidth="1920" maxHeight="1080" par="16:9">
 			<Representation id="0" mimeType="video/mp4" codecs="avc1.64002a" bandwidth="5000000" width="1920" height="1080" scanType="interlaced" sar="1:1">
-				<SegmentTemplate timescale="12800" initialization="init-stream$RepresentationID$.m4s" media="chunk-stream$RepresentationID$-$Number%05d$.m4s" startNumber="13">
+				<SegmentTemplate timescale="12800" initialization="init-stream$RepresentationID$.m4s" media="chunk-stream$RepresentationID$-$Number%05d$.m4s" startNumber="14">
 					<SegmentTimeline>
-						<S t="768000" d="64000" r="1" />
+						<S t="832000" d="64000" />
 						<S d="75264" />
+						<S d="64000" />
 					</SegmentTimeline>
 				</SegmentTemplate>
 			</Representation>
@@ -30,11 +31,10 @@
 		<AdaptationSet id="1" contentType="audio" startWithSAP="1" segmentAlignment="true" bitstreamSwitching="true" lang="tam">
 			<Representation id="1" mimeType="audio/mp4" codecs="mp4a.40.2" bandwidth="192000" audioSamplingRate="48000">
 				<AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2" />
-				<SegmentTemplate timescale="48000" initialization="init-stream$RepresentationID$.m4s" media="chunk-stream$RepresentationID$-$Number%05d$.m4s" startNumber="17">
+				<SegmentTemplate timescale="48000" initialization="init-stream$RepresentationID$.m4s" media="chunk-stream$RepresentationID$-$Number%05d$.m4s" startNumber="18">
 					<SegmentTimeline>
-						<S t="3079168" d="192512" />
-						<S d="192000" />
-						<S d="192512" />
+						<S t="3271680" d="192000" />
+						<S d="192512" r="1" />
 					</SegmentTimeline>
 				</SegmentTemplate>
 			</Representation>
