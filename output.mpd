@@ -8,9 +8,9 @@
 	minimumUpdatePeriod="PT7S"
 	suggestedPresentationDelay="PT7S"
 	availabilityStartTime="2025-04-18T15:20:56.768Z"
-	publishTime="2025-04-18T15:26:09.612Z"
+	publishTime="2025-04-18T15:26:21.975Z"
 	maxSegmentDuration="PT4.0S"
-	minBufferTime="PT15.4S">
+	minBufferTime="PT15.6S">
 	<ProgramInformation>
 	</ProgramInformation>
 	<ServiceDescription id="0">
@@ -26,6 +26,7 @@
 						<S d="79616" />
 						<S d="66560" />
 						<S d="98816" />
+						<S d="100352" />
 					</SegmentTimeline>
 				</SegmentTemplate>
 			</Representation>
