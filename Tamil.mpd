@@ -8,7 +8,7 @@
 	minimumUpdatePeriod="PT6S"
 	suggestedPresentationDelay="PT6S"
 	availabilityStartTime="2025-04-18T15:35:27.543Z"
-	publishTime="2025-04-18T15:38:06.617Z"
+	publishTime="2025-04-18T15:38:11.924Z"
 	timeShiftBufferDepth="PT19.0S"
 	maxSegmentDuration="PT4.0S"
 	minBufferTime="PT12.6S">
@@ -31,11 +31,10 @@
 		<AdaptationSet id="1" contentType="audio" startWithSAP="1" segmentAlignment="true" bitstreamSwitching="true" lang="tam">
 			<Representation id="1" mimeType="audio/mp4" codecs="mp4a.40.2" bandwidth="192000" audioSamplingRate="48000">
 				<AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2" />
-				<SegmentTemplate timescale="48000" initialization="init-stream$RepresentationID$.m4s" media="chunk-stream$RepresentationID$-$Number%05d$.m4s" startNumber="19">
+				<SegmentTemplate timescale="48000" initialization="init-stream$RepresentationID$.m4s" media="chunk-stream$RepresentationID$-$Number%05d$.m4s" startNumber="20">
 					<SegmentTimeline>
-						<S t="3464192" d="192512" />
-						<S d="192000" />
-						<S d="192512" />
+						<S t="3656704" d="192000" />
+						<S d="192512" r="1" />
 					</SegmentTimeline>
 				</SegmentTemplate>
 			</Representation>
